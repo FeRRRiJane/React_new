@@ -1,0 +1,24 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background-image: url('../../images/logo.png');
+    background-repeat: no-repeat;
+}
+
+.Header__button{
+
+    font-family: 'Inter';
+    margin:30px 70px;
+    padding: 16px 54px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #33FFFF 0%, #45FF4D 100%);
+    border-radius: 17px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
